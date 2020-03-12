@@ -1,0 +1,12 @@
+<scene>
+      <lights>
+            <light type="POINT" posX="0" posY="0" posZ="0" />
+      </lights>
+      <group>
+            <scale X="20" Y="20" Z="20" />
+            <models>
+                  <model file="plane.3d" texture="../../texture/earth.jpg" ambR="3" ambG="3" ambB="3"/>
+            </models>
+      </group>
+</scene>
+

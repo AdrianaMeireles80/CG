@@ -1,0 +1,12 @@
+<scene>
+      <lights>
+            <light type="POINT" posX="-50" posY="25" posZ="0" />
+      </lights>
+      <group>
+            <scale X="40" Y="40" Z="40" />
+            <models>
+                  <model file="box.3d" texture="../../texture/cube.jpg" emiR="1" emiG="1" emiB="1" />
+            </models>
+      </group>
+</scene>
+

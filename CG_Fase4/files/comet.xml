@@ -1,0 +1,20 @@
+<scene>
+      <lights>
+            <light type="POINT" posX="-20" posY="10" posZ="0" />
+      </lights>
+      <group>
+            <rotate angle="45" X="1" />
+                  <translate time="500" derivative="1" >
+                        <point X="25.000000" Y="0.000000" Z="0.000000" />
+                        <point X="0.000000" Y="0.000000" Z="25.000000" />
+                        <point X="-25.000000" Y="0.000000" Z="0.000000" />
+                        <point X="-40.000000" Y="0.000000" Z="-40.000000" />
+                        <point X="0.000000" Y="0.000000" Z="-25.000000" />
+                  </translate>
+                  <scale X="2.0" Y="2.0" Z="2.0" />
+            <models>
+                  <model file="teapot.3d" texture="../../texture/earth.jpg" ambR="1" ambG="1" ambB="1" />
+            </models>
+      </group>
+</scene>
+

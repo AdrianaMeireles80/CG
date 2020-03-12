@@ -1,0 +1,14 @@
+<scene>
+      <lights>
+            <light type="POINT" posX="100" posY="100" posZ="100" />
+            <light type="POINT" posX="-100" posY="100" posZ="-100" diffR="1" diffG="0" diffB="0"/>
+            <light type="POINT" posX="-100" posY="100" posZ="100" diffR="0" diffG="1" diffB="0"/>
+            <light type="POINT" posX="100" posY="100" posZ="-100" diffR="0" diffG="0" diffB="1"/>
+      </lights>
+      <group>
+            <scale X="6" Y="6" Z="6" />
+            <models>
+                  <model file="sphere.3d" texture="../../texture/sphere.jpg" ambR="0.2" ambG="0.8" ambB="0.1"  />
+            </models>
+      </group>
+</scene>

@@ -1,0 +1,14 @@
+<scene>
+      <lights>
+            <light type="POINT" posX="-20" posY="0" posZ="0" />
+      </lights>
+      <group>
+            <scale X="2" Y="2" Z="2" />
+            <rotate angle="90" Y="1" />
+            <models>
+                  <model file="torus.3d" texture="../../texture/mercury.jpg" ambR="1" ambG="1" ambB="1" />
+            </models>
+      </group>
+</scene>
+
+

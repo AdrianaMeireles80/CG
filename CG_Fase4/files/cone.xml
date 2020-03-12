@@ -1,0 +1,14 @@
+<scene>
+      <lights>
+            <light type="POINT" posX="-20" posY="-10" posZ="0" ambR="0.2" ambG="0.2" ambB="0.2" />
+            <light type="POINT" posX="-20" posY="20" posZ="0" diffR="1" diffG="1" diffB="1" />
+      </lights>
+      <group>
+            <scale X="20" Y="20" Z="20" />
+            <models>
+
+                  <model file="cone.3d" texture="../../texture/cone.png" emiR="0.2" emiG="0.2" emiB="0.2" />
+            </models>
+      </group>
+</scene>
+
